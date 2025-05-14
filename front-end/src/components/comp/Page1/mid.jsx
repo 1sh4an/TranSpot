@@ -1,7 +1,8 @@
-import { Button } from "../ui/button";
-import { Card } from "../ui/card";
-import { Input } from "../ui/input";
+import { Button } from "../../ui/button";
+import { Card } from "../../ui/card";
+import { Input } from "../../ui/input";
 import Navbar from "./navig"
+import { Link } from "react-router-dom";
 
 export default function Mid(){
     return(
@@ -32,6 +33,15 @@ export default function Mid(){
                             <span className="text-lg sm:text-xl font-medium tracking-tight transition-colors bg-clip-text text-transparent bg-gradient-to-r from-zinc-800 to-zinc-700">
                                 Paste your Spotify Link here
                             </span>
+                            <Input
+                                placeholder="open.spotify.com/playlist/. . ."
+                                className="w-full sm:w-auto max-w-lg py-2 text-lg"
+                            />
+                            <Link to="/Redirect">
+                                <Button className="w-full sm:w-auto py-2 text-md">
+                                    Get Started
+                                </Button>
+                            </Link>
                         </form>
                     </div>
                 </div>

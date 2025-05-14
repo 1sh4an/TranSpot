@@ -1,7 +1,7 @@
 import * as React from "react"
-import Mid from "./components/comp/mid"
-import HowToUse from "./components/comp/bottom"
-import { Footer } from "./components/comp/footer"
+import Mid from "../components/comp/Page1/mid"
+import HowToUse from "../components/comp/Page1/bottom"
+import { Footer } from "../components/comp/Page1/footer"
 function App() {
   return (
     <div className="flex w-screen flex-col items-center justify-center">

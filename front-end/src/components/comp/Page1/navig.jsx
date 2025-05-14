@@ -1,11 +1,17 @@
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
         <nav className="flex w-full justify-between items-center mt-6 px-4 sm:px-10">
-                <span className="bg-gradient-to-r from-gray-500 to-gray-500 bg-clip-text text-5xl font-extrabold text-transparent ...">
+            <Link
+                to="/"
+                className="text-lg font-medium text-black hover:text-zinc-700"
+            >
+                <span className="bg-gradient-to-r from-white via-zinc-300 to-zinc-400 text-transparent bg-clip-text font-bold text-2xl">
                     TranSpot
                 </span>
+            </Link>
                 <a
                 href="https://github.com/Pushan2005/SpotTransfer"
                 className="flex"
