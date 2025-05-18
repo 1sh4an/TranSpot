@@ -13,7 +13,7 @@ export default function Navbar() {
                 </span>
             </Link>
                 <a
-                href="https://github.com/Pushan2005/SpotTransfer"
+                href="https://github.com/1sh4an/TranSpot"
                 className="flex"
                 >
                 <FaGithub className="w-6 h-6 sm:mr-2" />

@@ -58,7 +58,7 @@ export default function HowTo(){
           <h2 className="text-3xl subpixel-antialiased font-bold">
             How to get auth headers?
           </h2>
-          <div className="space-y-5 mb-10 mt-4 justify-end">
+          <div className="space-y-5 mb-10 mt-8 justify-end">
               {steps.map((step, index) => (
                   <Step
                       key={index}
