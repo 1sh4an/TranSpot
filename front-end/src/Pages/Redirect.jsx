@@ -1,5 +1,5 @@
 import * as React from "react"
-import { CarouselPlugin } from "../components/comp/Page2/Auth"
+import HowTo from "../components/comp/Page2/Auth"
 import Navbar from "../components/comp/Page1/navig"
 
 export default function Redirect(){
@@ -8,6 +8,7 @@ export default function Redirect(){
             <div className="w-full max-w-[1000px] px-4">
                 <Navbar/>
             </div>
+            <HowTo/>
         </div>
     )
 }
