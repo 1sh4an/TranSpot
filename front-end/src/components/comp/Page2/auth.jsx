@@ -52,8 +52,8 @@ export default function HowTo(){
   ];
 
   return(
-    <div>
-      <Card className="flex-row overflow-hidden w-[1000px] mt-10">
+    <div className="w-full flex justify-center items-center">
+      <Card className="flex-row overflow-hidden mt-10  w-[80%] h-[140vh]">
         <CardContent>
           <h2 className="text-3xl subpixel-antialiased font-bold">
             How to get auth headers?
@@ -82,7 +82,8 @@ export default function HowTo(){
 
 function Step({ title, description, index }) {
   return (
-      <div className="flex items-start gap-3">
+    <div className="w-full">
+      <div className="flex items-start gap-3 w-[80%]">
           <div className="flex-shrink-0">
               <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-zinc-100 dark:bg-zinc-800 text-sm">
                   {index + 1}
@@ -93,5 +94,7 @@ function Step({ title, description, index }) {
               <div className="text-sm text-zinc-500 w-[500px]">{description}</div>
           </div>
       </div>
+    </div>
+      
   );
 }

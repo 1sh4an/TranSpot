@@ -9,10 +9,8 @@ import Redirect from './Pages/Redirect.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <>
-      <html lang="en" suppressHydrationWarning>
-        <head />
-        <body>
+   
+        
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -26,8 +24,8 @@ createRoot(document.getElementById('root')).render(
               </Routes>
             </BrowserRouter>
           </ThemeProvider>
-        </body>
-      </html>
-    </>
+       
+      
+
 </StrictMode>
 )

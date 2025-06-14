@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 export default function Mid(){
     return(
-        <main className="flex justify-center items-center mt-5">
+        <main className="flex justify-center items-center ">
             <div className="w-full max-w-[1000px] px-4">
-                <Navbar />
+               
                 <div className="flex flex-col justify-center items-center mt-20 md:mt-30 lg:mt-40">
                     <div className="text-center">
                         <div className="flex justify-center items-center mb-6">
@@ -38,7 +38,7 @@ export default function Mid(){
                                 className="w-full sm:w-auto max-w-lg py-2 text-lg"
                             />
                             <Link to="/Redirect">
-                                <Button className="w-full sm:w-auto py-2 text-md">
+                                <Button className="cursor-pointer w-full sm:w-auto py-2 text-md">
                                     Get Started
                                 </Button>
                             </Link>
