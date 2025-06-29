@@ -10,7 +10,7 @@ export function Footer() {
                         href="https://github.com/1sh4an"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-medium text-gray-700 hover:text-gray-900 transition-colors inline-flex items-center gap-1"
+                        className="font-medium text-gray-700 hover:text-blue-500 transition-colors inline-flex items-center gap-1"
                     >
                         @1sh4an
                         <FaGithub className="w-4 h-4" />

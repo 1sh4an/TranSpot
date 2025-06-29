@@ -15,7 +15,7 @@ export default function Mid(){
                             <a href="https://github.com/1sh4an/TranSpot">
                                 <Button
                                     variant="outline"
-                                    className="dark:bg-gradient-to-r dark:from-gray-900 dark:to-black text-black dark:text-white flex justify-center items-center rounded-full px-6 py-3 text-lg border dark:border-gray-800"
+                                    className="cursor-pointer dark:bg-gradient-to-r dark:from-gray-900 dark:to-black text-black dark:text-white flex justify-center items-center rounded-full px-6 py-3 text-lg border dark:border-gray-800"
                                 >
                                     Star this on Github ⭐
                                 </Button>
